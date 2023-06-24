@@ -94,7 +94,7 @@ ob_start();
               </a>
             </li>
             <li class="nav-item">
-              <a href="?page=satuan" class="nav-link">
+              <a href="src/pages/notfound.php" class="nav-link">
                 <i class="fas fa-balance-scale"></i>
                 <p>
                   Satuan
@@ -283,7 +283,7 @@ ob_start();
           break;
 
         case 'satuan':
-          include "src/pages/satuan/view.php";
+          include "src/pages/notfound.php";
           break;
 
         default:
