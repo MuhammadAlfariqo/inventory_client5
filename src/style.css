@@ -1,0 +1,14 @@
+.nav-item:hover {
+  background-color: #17a2b8;
+  border-radius: 5px;
+}
+
+.dataTables_filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
